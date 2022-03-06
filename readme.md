@@ -2,6 +2,8 @@
 
 > [Normalize](https://en.wikipedia.org/wiki/URL_normalization) a URL
 
+Converted from module to commonjs for TypeScript
+
 Useful when you need to display, store, deduplicate, sort, compare, etc, URLs.
 
 **Note:** This package does **not** do URL sanitization. [Garbage in, garbage out.](https://en.wikipedia.org/wiki/Garbage_in,_garbage_out) If you use this in a server context and accept URLs as user input, it's up to you to protect against invalid URLs, [path traversal attacks](https://owasp.org/www-community/attacks/Path_Traversal), etc.
